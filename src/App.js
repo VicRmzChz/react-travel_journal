@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import data from './data';
+import { Header } from './component/Header';
+import { Card } from './component/Card';
 
-function App() {
+export function App() {
+  const cards = data.map(item => {
+    return (
+      <Card
+        item={item}
+      />
+    )
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <div className='hero'>
+        <Header />
+        {cards}
+      </div>
+
+    </Fragment>
   );
 }
-
-export default App;
