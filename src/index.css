@@ -25,6 +25,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: white;
+  margin-bottom: 30px;
 }
 
 .top--header h3 {
@@ -61,32 +62,46 @@ body {
   line-height: 30px;
 }
 
+.card .card--info .data-start-end {
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+
 .card .card--info p {
   font-size: 10.24px;
   line-height: 150%;
 }
 
+.card .card--info .location {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  padding-right: 5px;
+}
+
+.card .card--info .fa-map-marker {
+  color: #F55A5A;
+  width: 7px;
+  padding-right: 2px;
+}
+
+.card .card--info a {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #918E9B;
+}
+
 hr {
   width: 478px;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   border: 1px solid #F5F5F5;
 }
-
-/*.feature {
-    margin-top: 5em;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 3em;
-    margin-bottom: 8em;
-
-    img {
-        width: 125px;
-        height: 168px;
-    }
-
-    .content {
-        text-align: left;
-        width: 25em;
-    }
-}*/
 /*# sourceMappingURL=index.css.map */
