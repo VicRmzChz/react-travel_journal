@@ -18,16 +18,3 @@ export function Card(props) {
         </div>
     );
 }
-
-
-/*
-<section className='more-info'>
-            <div className='feature'>
-                <img src={props.item.imageUrl} alt="Japan Mounten" />
-                <div className='content'>
-                    <p className='title'>Lightweight</p>
-                    <p className='desc'>Mollit mollit consequat sint occaecat ad nostrud adipisicing veniam minim adipisicing velit laborum commodo dolore.</p>
-                </div>
-            </div>
-        </section>
-*/
